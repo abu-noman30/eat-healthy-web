@@ -3,6 +3,8 @@
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
+/* Diet section */
+
 .diet-section {
   display: flex;
   background-image: url(./images/shapes/Frame-57.jpg);
@@ -13,6 +15,7 @@
   padding-left: 50px;
   margin-left: 60px;
 }
+
 .diet-container img {
   margin-left: -70px;
   width: 100%;
@@ -32,6 +35,46 @@
   color: orangered;
 }
 .diet-container a {
+  text-decoration: none;
+  padding: 20px 30px;
+  background: linear-gradient(#e40d0d, #e0d01e);
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+  border-radius: 150px;
+}
+
+/* About me section */
+.aboutme-section {
+  display: flex;
+  background-image: url(./images/shapes/7.png);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+.aboutme-container {
+  width: 50%;
+  padding-left: 60px;
+  margin-top: 120px;
+}
+.aboutme-container img {
+  width: 50%;
+  margin-left: 150px;
+}
+.aboutme-container h1 {
+  font-size: 40px;
+  color: teal;
+  margin-bottom: 50px;
+  margin-top: 60px;
+}
+.aboutme-container p {
+  padding-right: 180px;
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.aboutme-container a {
+  text-align: center;
   text-decoration: none;
   padding: 20px 30px;
   background: linear-gradient(#e40d0d, #e0d01e);
