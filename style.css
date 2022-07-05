@@ -101,74 +101,91 @@
   font-size: 18px;
 }
 
-.recipies-container{
-    display: flex;
-    margin: 0 auto;
-    padding-left: 40px;
-    padding-right: 40px;
-
+.recipies-container {
+  display: flex;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
 }
-.recipie-title{
-    background-color: white;
-    width: 50%;
-    height:10%;
-    border-radius: 20px;
-    padding-top: 20px;
-    box-shadow: 1px 1px 15px 10px #e5dede;
-    margin-bottom: 20px;
-    
+.recipie-title {
+  background-color: white;
+  width: 50%;
+  height: 10%;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 1px 1px 15px 10px #e5dede;
+  margin-bottom: 20px;
 }
-.one{
-    margin-left: 100px;
-    margin-right: 5px;
-
+.one {
+  margin-left: 100px;
+  margin-right: 5px;
 }
-.two{
-    margin-left: 5px;
-    margin-right: 100px;
-
+.two {
+  margin-left: 5px;
+  margin-right: 100px;
 }
-.recipie-title img{
-    width: 90%;
-    height: 300px;
-    border-radius: 10px;
-    margin-left:25px;
-    margin-bottom: 20px;
-    
+.recipie-title img {
+  width: 90%;
+  height: 300px;
+  border-radius: 10px;
+  margin-left: 25px;
+  margin-bottom: 20px;
 }
-.recipie-title h2, .recipie-title p{
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+.recipie-title h2,
+.recipie-title p {
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-.recipie-title h2{
-    font-size: 30px;
-    font-weight: 900;
+.recipie-title h2 {
+  font-size: 30px;
+  font-weight: 900;
 }
-.recipie-title p{
-    padding-bottom: 30px;
+.recipie-title p {
+  padding-bottom: 30px;
 }
 
 /* Followers Section */
-.follower-container{
+.follower-container {
   border-radius: 10px;
   display: flex;
-  margin:30px 135px;
+  margin: 30px 135px;
   padding: 0px 20px;
   box-shadow: 1px 1px 15px 10px #e5dede;
 }
-.followers{
+.followers {
   width: 30%;
   text-align: center;
   padding: 0px 20px;
   margin: 40px;
 }
-.followers h1{
+.followers h1 {
   font-size: 48px;
   font-weight: 700;
 }
-.followers h6{
+.followers h6 {
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Footer Section */
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+}
+footer h1 {
+  margin-bottom: 40px;
+  color: green;
+  font-weight: 800;
+  font-size: 30px;
+}
+footer h1 span {
+  color: rgb(218, 16, 16);
+}
+footer h6 {
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 60px;
 }
