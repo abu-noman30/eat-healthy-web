@@ -149,3 +149,26 @@
 .recipie-title p{
     padding-bottom: 30px;
 }
+
+/* Followers Section */
+.follower-container{
+  border-radius: 10px;
+  display: flex;
+  margin:30px 135px;
+  padding: 0px 20px;
+  box-shadow: 1px 1px 15px 10px #e5dede;
+}
+.followers{
+  width: 30%;
+  text-align: center;
+  padding: 0px 20px;
+  margin: 40px;
+}
+.followers h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+.followers h6{
+  font-size: 16px;
+  font-weight: 400;
+}
