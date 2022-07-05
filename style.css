@@ -83,3 +83,69 @@
   font-size: 20px;
   border-radius: 150px;
 }
+
+/* Recipies section */
+
+.recipie-header {
+  text-align: center;
+  padding: 30px 350px;
+}
+.recipie-header h2 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54px;
+}
+.recipie-header p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.recipies-container{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+.recipie-title{
+    background-color: white;
+    width: 50%;
+    height:10%;
+    border-radius: 20px;
+    padding-top: 20px;
+    box-shadow: 5px 5px 5px 8px #e5dede;
+    margin-bottom: 20px;
+    
+}
+.one{
+    margin-left: 100px;
+    margin-right: 5px;
+
+}
+.two{
+    margin-left: 5px;
+    margin-right: 100px;
+
+}
+.recipie-title img{
+    width: 90%;
+    height: 300px;
+    border-radius: 10px;
+    margin-left:25px;
+    margin-bottom: 20px;
+    
+}
+.recipie-title h2, .recipie-title p{
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.recipie-title h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+.recipie-title p{
+    padding-bottom: 30px;
+}
