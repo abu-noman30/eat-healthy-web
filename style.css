@@ -3,3 +3,40 @@
   padding: 0;
   font-family: 'Josefin Sans', sans-serif;
 }
+.diet-section {
+  display: flex;
+  background-image: url(./images/shapes/Frame-57.jpg);
+  background-repeat: no-repeat;
+}
+.diet-container {
+  width: 50%;
+  padding-left: 50px;
+  margin-left: 60px;
+}
+.diet-container img {
+  margin-left: -70px;
+  width: 100%;
+}
+.diet-container h1 {
+  font-size: 60px;
+}
+.diet-container-h1 {
+  padding-top: 100px;
+}
+.diet-container p {
+  font-size: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.diet-container span {
+  color: orangered;
+}
+.diet-container a {
+  text-decoration: none;
+  padding: 20px 30px;
+  background: linear-gradient(#e40d0d, #e0d01e);
+  font-weight: 900;
+  color: white;
+  font-size: 20px;
+  border-radius: 150px;
+}
